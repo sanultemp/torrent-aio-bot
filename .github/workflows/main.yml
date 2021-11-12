@@ -16,3 +16,5 @@ jobs:
           docker_heroku_process_type: worker
           stack: "container"
           region: "eu"
+        env:
+          HD_APP_ID: ${{secrets.APP_ID}}
